@@ -1,0 +1,44 @@
+.draggable {
+	user-select: none;
+	background-color: white;
+	margin: 20px 0;
+	padding: 20px;
+	/* box-shadow: 0px 3px 14px 1px rgba(0, 0, 0, 0.15); */
+	transition: all 0.2s ease-in-out;
+	border: 1px solid #dee7ec;
+	border-radius: 8px;
+}
+
+.draggable:hover {
+	transform: scale(1.01);
+}
+
+.draggable-item {
+	user-select: none;
+	padding-left: 5px;
+	transition: all 0.2s ease-in-out;
+}
+
+.draggable-item:hover {
+	padding-left: 5px;
+	box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.1);
+	transform: scale(1.01);
+}
+
+.icon {
+	margin-right: 12px;
+	opacity: 0.3;
+	cursor: grab;
+}
+
+.grabbable {
+	cursor: grab;
+}
+
+.dragLine {
+	border-bottom: dashed 4px rgba(245, 75, 53, 0.445) !important;
+}
+
+.margin-top {
+	margin-top: 5px;
+}
